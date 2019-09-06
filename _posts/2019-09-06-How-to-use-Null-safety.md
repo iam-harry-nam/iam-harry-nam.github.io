@@ -1,7 +1,7 @@
 ---
 title: "How to use Null safety"
 date: 2019-09-06 11:13:00 -0700
-category: Computer Language
+category: ["Computer Language", "Kotlin"]
 tag: ["NullPointerException Java Kotlin", "NullPointerException billion dollar mistake"]
 ---
 
