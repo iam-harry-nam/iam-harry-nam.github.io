@@ -1,6 +1,6 @@
 ---
 title: "If you are a student or instructor, use IntelliJ IDEA Ultimate for free"
-date: 2019-08-04 13:49:00 -0400
+date: 2019-09-04 23:49:00 -0400
 category: Development Tools
 tag: Intellij idea ultimate edition student
 ---
