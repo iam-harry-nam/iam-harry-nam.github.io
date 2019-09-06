@@ -2,11 +2,11 @@
 title: "How to use Null safety"
 date: 2019-09-06 11:13:00 -0700
 category: Computer Language
-tag: ["NullPointerException Java Kotlin", "NullPointerException billin dollar mistake"]
+tag: ["NullPointerException Java Kotlin", "NullPointerException billion dollar mistake"]
 ---
 
 
-One of the most common errors in many programming languages, including Java, is that accessing a member without a reference value results in a null reference exception. In Java, this is equivalent to NullPointerException or NPE.
+One of the most common errors in many programming languages, including Java, is that accessing a member without a reference value results in a null reference exception. In Java, this is equivalent to **NullPointerException** or **NPE**.
 
 `Tony Hoare` who applied NPE first time said.
 
@@ -26,7 +26,10 @@ fun test(a: String, b: String?) {
 ```
 
 You can clearly see the difference in the following code: It's simple. `?` is the difference.
-If `?` is added, it means that this can also refer to Null. If `?` doesn't exist, it means the variable that doesn't have a null reference.
+
+If `?` is added, it means that this can also refer to Null. 
+
+If `?` doesn't exist, it means the variable that doesn't have a null reference.
 
 ```java
 String name = null;
@@ -51,6 +54,7 @@ In Kotlin you can abbreviate this.
 
 ## Safe Calls
 In Kotlin, when you need to check null and call only if it is not null, you can add `?.` to nullable variable.
+
 This is Safe Calls!
 
 
@@ -86,8 +90,9 @@ return school?.class?.name?.age
 
 ## And you can throw an exception if you refer to a null reference
 
-There are some variables are obviously not nullable, but some cases where you must declare Null variables.
-I use it mainly when API calls and handling response messages are not Null in API response messages. In Kotlin, using !! produce NPE if it is null and then calls function.
+There are some variables are obviously not nullable, but some cases where you must declare Null variables. I use it mainly when API calls and handling response messages are not Null in API response messages. 
+
+In Kotlin, using !! produce NPE if it is null and then calls function.
 
 ```kotlin
 var name: String? = null
@@ -129,7 +134,7 @@ for (i in nullableList) {
 
 
 // If you declare it as a non-null variable Int List as below, you don't have to worry about Null.
-val intList: List[Int] = nullableList.filterNotNull()
+val intList: List<Int> = nullableList.filterNotNull()
 
 for (i in intList) {
 	print("${i} ")
@@ -137,5 +142,6 @@ for (i in intList) {
 ```
 
 In this way, Kotlin can prevent NPE by using non-null variables by default, and can safely and consequently check nulls even if it uses Null-reference variables.
-Kotlin is a good language to prevent NPE.
+
+**Kotlin** is a good language to prevent NPE.
 
