@@ -1,7 +1,7 @@
 ---
 title: "Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0."
 date: 2019-09-07 01:00:00 -0700
-category: ["Architecture","Back-End","Trouble Shooting"]
+category: ["Trouble Shooting"]
 tag: ["Deprecated Gradle features were used in this build making it incompatible with Gradle 6.0.",
      "Kotlin gradle plugin version 1.3.20",
      "The DefaultSourceDirectorySet constructor has been deprecated.",

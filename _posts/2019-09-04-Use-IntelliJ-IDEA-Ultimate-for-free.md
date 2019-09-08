@@ -1,8 +1,11 @@
 ---
 title: "If you are a student or instructor, use IntelliJ IDEA Ultimate for free"
 date: 2019-09-04 23:49:00 -0400
-category: ["Development Tools", "IntelliJ"]
-tag: Intellij idea ultimate edition student
+category: ["IntelliJ"]
+tag: ["Intellij idea ultimate edition student",
+    "intellij idea ultimate commuity difference",
+    "coupon","edition free","price buy","review",
+    "trial tutorial version","worth it"]
 ---
 I am using IntelliJ IDEA Ultimate, and I feel comfortable using it once. I was able to use it for lucky chance for more than two years, and now I can not use on another editor.
 

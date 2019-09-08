@@ -1,14 +1,15 @@
 ---
 title: "Kotlin not configured in IntelliJ"
 date: 2019-09-08 17:38:00 -0700
-category: ["Computer Language","Kotlin"]
-tag: ["Deprecated Gradle features were used in this build making it incompatible with Gradle 6.0.",
-     "Kotlin gradle plugin 1.3.20",
-     "Kotlin version 1.3.20",
-     "The DefaultSourceDirectorySet constructor has been deprecated.",
-     "This is scheduled to be removed in Gradle 6.0.",
-     "Please use the ObjectFactory service to create instances of SourceDirectorySet instead."]
+category: ["Trouble Shooting"]
+tag: ["Kotlin not configured in IntelliJ",
+     "add a dependency on the Kotlin standard library",
+     "Kotlin version 1.3.41",
+     "kotlin-gradle-plugin Kotlin-stdlib",
+     "Spring boot create with Gradle by Kotlin"]
 ---
+
+_Trouble Shooting history_
 
 When I create spring-boot with Kotlin, IntelliJ can't reconize Kotlin class.
 
