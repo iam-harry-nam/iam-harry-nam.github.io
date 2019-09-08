@@ -11,7 +11,7 @@ _Trouble Shooting history_
 
 I create new project with IntelliJ's spring initializer (link : _[https://start.spring.io/]_ )
 
-[##_Image|/resource/image/20190909/springBoot_1.png|alignCenter||runApplication_##]
+<a href="/resource/image/20190909/springBoot_1.png"><img src="/resource/image/20190909/springBoot_1.png" width="700px" title="runApplication" /></a>
 
 And main function is automatically generate, but runApplication does not configured because below can't import.
 
