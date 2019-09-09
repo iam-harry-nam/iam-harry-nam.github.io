@@ -1,7 +1,7 @@
 ---
 title: "runApplication not found"
 date: 2019-09-09 01:00:00 -0700
-category: ["Architecture","Back-End","Trouble Shooting"]
+category: ["Trouble Shooting"]
 tag: ["can not import org.springframework.boot.runApplication",
      "org.springframework.boot.runApplication not found",
      "spring Boot Version 2.x.x"]
