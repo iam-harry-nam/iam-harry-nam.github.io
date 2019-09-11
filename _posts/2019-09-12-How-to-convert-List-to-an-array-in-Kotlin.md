@@ -10,7 +10,7 @@ tag: ["How to convert List String to an String array in Kotlin",
 First, implement convert function
   
 ```kotlin
-private inline fun <reified T> toArray(list: List<*>]): Array<T> {
+private inline fun <reified T> toArray(list: List<*>): Array<T> {
 	return (list as List<T>).toTypedArray()
 }
 ```
