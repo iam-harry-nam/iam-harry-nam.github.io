@@ -1,6 +1,6 @@
 ---
 title: "How to convert List to an array in Kotlin?"
-date: 2019-09-12 01:00:00 -0700
+date: 2019-09-12 01:00:00
 category: ["Kotlin"]
 tag: ["How to convert List String to an String array in Kotlin",
       "how to put array value to vararg parameter to Java Function",
