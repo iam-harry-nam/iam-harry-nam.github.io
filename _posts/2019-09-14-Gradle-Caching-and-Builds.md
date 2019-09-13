@@ -10,7 +10,8 @@ tag: ["global caching task caching",
 
 Roughly Gradle does two kinds of caching: **global caching** for all projects and **task caching** on per project basis.
 
-##Global Caching  
+## Global Caching  
+
 By default Gradle stores it in a home directory for a user.  
 Path is `~/.gradle/caches`.
 
@@ -30,13 +31,19 @@ $ rm -rf ~/.gradle/caches/$GRADLE_VERSION{put your Gradle version}/
 $ find ~/.gradle/caches/ -name "*.lock" -type f -delete
 ```
 
-##Task Caching
+## Task Caching
 
 Gradle introduced _incremental build support_ aka `UP-TO-DATE` checks. The idea of UP-TO-DATE checks is pretty simple: If a task (1) has a known set of inputs and outputs and (2) does not have side effects then **inputs deterministically define outputs and task execution can be skipped if inputs hasn’t changed** from the previous build.
 
-Gradle 3.5 took this idea to a completely different level. Before, 'UP-TO-DATE' checks worked only between sequential local invocations of Gradle which was a huge pain-point for people using feature branches in Git. Switching branches most likely was resulting in all `UP-TO-DATE` checks to fail on the next build. The build cache on the other hand allowed `UP-TO-DATE` checks to persist information about inputs and outputs not only between sequential invocations.
+Gradle 3.5 took this idea to a completely different level. Before, 'UP-TO-DATE' checks worked only between sequential local invocations of Gradle which was a huge pain-point for people using feature branches in Git. Switching branches most likely was resulting in all `UP-TO-DATE` checks to fail on the next build. 
 
-To enable the build cache for your Gradle project simply put `org.gradle.caching=true` in your `gradle.properties` file. By default Gradle stores Build Cache locally in `~/.gradle/caches/build-cache-1` folder which means it will be automatically cached in CI as we discussed above. **But it’s not that simple!** Build Cache size will grow overtime and by default it can be up to 5 GB. It’s quite a lot! In Gradle 4.6 Build Cache will switch to time based cache eviction policy which means everything that was unused in the last 7 days will be evicted from the cache. But still **Build Cache will contain a lot of artifacts that are not required for every build!**
+The build cache on the other hand allowed `UP-TO-DATE` checks to persist information about inputs and outputs not only between sequential invocations.
+
+To enable the build cache for your Gradle project simply put `org.gradle.caching=true` in your `gradle.properties` file. By default Gradle stores Build Cache locally in `~/.gradle/caches/build-cache-1` folder which means it will be automatically cached in CI as we discussed above. 
+
+**But it’s not that simple!** Build Cache size will grow overtime and by default it can be up to 5 GB. It’s quite a lot! 
+
+In Gradle 4.6 Build Cache will switch to time based cache eviction policy which means everything that was unused in the last 7 days will be evicted from the cache. But still **Build Cache will contain a lot of artifacts that are not required for every build!**
 
 Thankfully, there is an option to use a **Remote Build Cache.** Instead of storing everything locally Gradle will use a remote storage and download cached build artifacts only when they are needed.
 
@@ -60,3 +67,4 @@ buildCache {
 You can use the same configuration with Gradle Enterprise by simply changing `buildCacheHost` to point to your Gradle Enterprise instance.
 
 _This is Summary of [Mastering-gradle-caching-and-incremental-builds](https://medium.com/cirruslabs/mastering-gradle-caching-and-incremental-builds-37eb1af7fcde)_
+
