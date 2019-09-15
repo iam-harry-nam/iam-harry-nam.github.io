@@ -8,7 +8,7 @@ tag: ["Execution failed for task ':bootJar'. Main class name has not been config
 
 This error happens on bootJar job.
 
-```shell script
+```sbtshell
 Execution failed for task ':bootJar'.
 > Main class name has not been configured and it could not be resolved
 ```
@@ -18,7 +18,7 @@ This is because there is no main class in DAO package. (in My case)
 
 
 
-So, I just added one line in dao/build.gradle 
+In my case, just add one line in dao/build.gradle, and fixed. 
 
 
 ```groovy
