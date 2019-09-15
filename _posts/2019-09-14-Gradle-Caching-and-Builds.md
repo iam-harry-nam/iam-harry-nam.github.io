@@ -2,9 +2,9 @@
 title: "Gradle Caching and Builds"
 date: 2019-09-14 03:00:00
 category: ["Gradle"]
-tag: ["global caching task caching",
+tag: ["Global caching Task caching",
       "How to Cache clean up",
-      "incremental build support UP-TO-DATE",
+      "Incremental build support UP-TO-DATE",
       "Remote Build Cache"]
 ---
 
