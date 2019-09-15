@@ -8,7 +8,7 @@ tag: ["Execution failed for task ':bootJar'. Main class name has not been config
 
 This error happens on bootJar job.
 
-```sbtshell
+```
 Execution failed for task ':bootJar'.
 > Main class name has not been configured and it could not be resolved
 ```
