@@ -6,6 +6,8 @@ tag: ["Execution failed for task ':bootJar'. Main class name has not been config
       "bootJar.enabled = false"]
 ---
 
+_Trouble Shooting_
+
 This error happens on bootJar job.
 
 ```

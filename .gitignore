@@ -2,3 +2,5 @@
 _site
 *.iml
 Gemfile.lock
+/build
+/.gradle
