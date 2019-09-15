@@ -1,5 +1,5 @@
 ---
-title: "Main class name has not been configured and it could not be resolved"
+title: "IllegalStateException Caused by:UnsatisfiedDependencyException Caused by: jdbc.DataSourceProperties$DataSourceBean"
 date: 2019-09-16 01:00:00
 category: ["Trouble Shooting"]
 tag: ["contextLoads FAILED java.lang.IllegalStateException",
