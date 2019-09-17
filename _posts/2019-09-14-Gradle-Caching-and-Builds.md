@@ -2,10 +2,7 @@
 title: "Gradle Caching and Builds"
 date: 2019-09-14 03:00:00
 category: ["Gradle"]
-tag: ["Global caching Task caching",
-      "How to Cache clean up",
-      "Incremental build support UP-TO-DATE",
-      "Remote Build Cache"]
+tag: ["Gradle Cache","Gradle Build"]
 ---
 
 Roughly Gradle does two kinds of caching: **global caching** for all projects and **task caching** on per project basis.

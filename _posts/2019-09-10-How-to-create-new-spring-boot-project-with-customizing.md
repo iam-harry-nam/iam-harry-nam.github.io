@@ -2,11 +2,7 @@
 title: "How to create new spring boot project with customizing"
 date: 2019-09-10 05:43:00
 category: ["Back-end","Spring Boot"]
-tag: ["How to create spring boot Kotlin project with customizing easily",
-      "How to setting Project Language spring boot version and dependency",
-      "How to use Spring Initializr Initializer in IntelliJ",
-      "start.spring.io",
-      "Spring boot 2.0.4 Kotlin Gradle 5.6 Project"]
+tag: ["Setting","Customizing","IntelliJ","kotlin","Kotlin Gradle 5.6","spring Boot","Spring Boot 2.0.4","Spring Initializr","start.spring.io"]
 ---
 
 There are two way to create new spring boot project with customizing.

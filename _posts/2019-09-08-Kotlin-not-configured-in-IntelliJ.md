@@ -2,11 +2,7 @@
 title: "Kotlin not configured in IntelliJ"
 date: 2019-09-08 17:38:00 -0700
 category: ["Trouble Shooting"]
-tag: ["Kotlin not configured in IntelliJ",
-     "add a dependency on the Kotlin standard library",
-     "Kotlin version 1.3.41",
-     "kotlin-gradle-plugin Kotlin-stdlib",
-     "Spring boot create with Gradle by Kotlin"]
+tag: ["Kotlin","IntelliJ","kotlin-stdlib","Kotlin 1.3","kotlin-gradle-plugin","Spring Boot","configuring-dependencies"]
 ---
 
 _Trouble Shooting history_
@@ -19,7 +15,9 @@ As a result, I added the standard library to dependency management.
 
 <a href="/resource/image/20190908/kotlin_2.png"><img src="/resource/image/20190908/kotlin_2.png" width="700px" title="build.gradle" /></a>
 
-> implementation("org.jetbrains.kotlin:kotlin-stdlib")
+```
+implementation("org.jetbrains.kotlin:kotlin-stdlib")
+```
 
 **Kotlin-stdlib** has extended versions of the standard library that add support for some of the features of JDK 7 and JDK 8.
 

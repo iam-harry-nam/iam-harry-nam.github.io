@@ -1,17 +1,15 @@
 ---
-title: "runBlocking(CoroutineContext = ..., suspend CoroutineScope.() -> T): T is only available since Kotlin 1.3 and cannot be used in Kotlin 1.2"
+title: "CoroutineContext version up issue"
 date: 2019-09-11 01:00:00
 category: ["Trouble Shooting"]
-tag: ["runBlocking(CoroutineContext = ... suspend CoroutineScope.() -> T): T is only available since Kotlin 1.3 and cannot be used in Kotlin 1.2",
-      "CoroutineContext version up issue",
-      "having trouble when kotlin version upgrade",
-      "kotlin version management in build gradle",
-      "runBlocking CoroutineContext CoroutineScope"]
+tag: ["CoroutineContext","Kotlin 1.3","Kotlin 1.2","Kotlin","runBlocking","CoroutineScope"]
 ---
 
 I was using Kotlin version 1.2.41 and I upgraded Kotlin version 1.2.41 to 1.3.21. Then, I got compile Error. 
 
-> ‘runBlocking(CoroutineContext = ..., suspend CoroutineScope.() -> T): T’ is only available since Kotlin 1.3 and cannot be used in Kotlin 1.2
+```
+$ ‘runBlocking(CoroutineContext = ..., suspend CoroutineScope.() -> T): T’ is only available since Kotlin 1.3 and cannot be used in Kotlin 1.2
+```
 
 Here is original code
 
@@ -59,7 +57,9 @@ kotlinxCoroutines = 1.2.2
 
 But I get error on `kotlinx.coroutines.runBlocking` function as below
 
-> ‘runBlocking(CoroutineContext = ..., suspend CoroutineScope.() -> T): T’ is only available since Kotlin 1.3 and cannot be used in Kotlin 1.2
+```
+$ ‘runBlocking(CoroutineContext = ..., suspend CoroutineScope.() -> T): T’ is only available since Kotlin 1.3 and cannot be used in Kotlin 1.2
+```
 
 I solved problem with below steps.
 

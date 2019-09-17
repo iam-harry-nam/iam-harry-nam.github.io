@@ -2,8 +2,7 @@
 title: "Main class name has not been configured and it could not be resolved"
 date: 2019-09-15 01:00:00
 category: ["Trouble Shooting"]
-tag: ["Execution failed for task ':bootJar'. Main class name has not been configured and it could not be resolved",
-      "bootJar.enabled = false"]
+tag: ["BootJar","Spring Boot","Gradle","Build Failed"]
 ---
 
 _Trouble Shooting_
@@ -20,7 +19,7 @@ This is because there is no main class in DAO package. (in My case)
 
 
 
-In my case, just add one line in dao/build.gradle, and fixed. 
+In my case, just add one line in `dao/build.gradle`, and fixed. 
 
 
 ```groovy

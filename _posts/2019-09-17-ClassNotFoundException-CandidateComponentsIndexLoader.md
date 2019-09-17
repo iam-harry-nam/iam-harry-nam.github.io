@@ -1,9 +1,8 @@
 ---
-title: "Caused by: ClassNotFoundException: CandidateComponentsIndexLoader"
+title: "ClassNotFoundException: CandidateComponentsIndexLoader"
 date: 2019-09-17 01:00:00
 category: ["Trouble Shooting"]
-tag: ["Caused by: java.lang.NoClassDefFoundError: org/springframework/context/index/CandidateComponentsIndexLoader",
-    "Caused by: java.lang.ClassNotFoundException: org.springframework.context.index.CandidateComponentsIndexLoader"]
+tag: ["NoClassDefFoundError","ClassNotFoundException","CandidateComponentsIndexLoader","Spring 4","Spring 5","Spring"]
 ---
 
 _Trouble Shooting_

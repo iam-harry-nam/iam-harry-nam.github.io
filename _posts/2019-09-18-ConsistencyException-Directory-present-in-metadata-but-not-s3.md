@@ -1,8 +1,13 @@
 ---
-title: "ERROR yarn.ApplicationMaster: User class threw exception: ConsistencyException: Directory 'path_name/20190916' present in the metadata but not s3"
+title: "ConsistencyException: Directory 'path_name/20190916' present in the metadata but not s3"
 date: 2019-09-18 01:00:00
 category: ["AWS", "Trouble Shooting"]
-tag: ["ERROR yarn.ApplicationMaster: User class threw exception: com.amazon.ws.emr.hadoop.fs.consistency.exception.ConsistencyException: Directory 'path_name/datetime=20190916' present in the metadata but not s3"]
+tag: ["ConsistencyException",
+        "Spark",
+        "Metadata",
+        "S3",
+        "EMRFS",
+        "Hadoop"]
 ---
 
 _Trouble Shooting_
@@ -14,7 +19,7 @@ ERROR yarn.ApplicationMaster: User class threw exception: com.amazon.ws.emr.hado
 ```
 
 After searching google, some people resolved with emrfs command  
-`emrfs delete s3://path`
+```emrfs delete s3://path```
 
 But I can't do emrfs cli since EC2 key pair issue.
 

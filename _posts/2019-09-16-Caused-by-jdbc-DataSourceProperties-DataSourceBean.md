@@ -1,9 +1,12 @@
 ---
-title: "IllegalStateException Caused by:UnsatisfiedDependencyException Caused by: jdbc.DataSourceProperties$DataSourceBean"
+title: "How to solve DataSourceBeanCreationException"
 date: 2019-09-16 01:00:00
 category: ["Trouble Shooting"]
-tag: ["contextLoads FAILED java.lang.IllegalStateException",
-    "Caused by: org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException"]
+tag: ["DataSourceBeanCreationException",
+    "BeanInstantiationException",
+    "BeanCreationException",
+    "UnsatisfiedDependencyException",
+    "BeanInstantiationException","JPA","Spring Boot"]
 ---
 
 _Trouble Shooting_
@@ -40,3 +43,4 @@ spring.datasource.driver-class-name=com.mysql.jdbc.Driver
   
 
 Another option is, removing import library `spring-boot-starter-data-jpa` from gradle.
+
