@@ -19,7 +19,9 @@ ERROR yarn.ApplicationMaster: User class threw exception: com.amazon.ws.emr.hado
 ```
 
 After searching google, some people resolved with emrfs command  
-```emrfs delete s3://path```
+```
+emrfs delete s3://path
+```
 
 But I can't do emrfs cli since EC2 key pair issue.
 
