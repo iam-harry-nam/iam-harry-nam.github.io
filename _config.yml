@@ -36,6 +36,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/hyunseok.namsaeng/?hl=ko"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/hyunsuk-nam-67835aaa/"
 
 # Site Settings
 locale                   : "en-US"
