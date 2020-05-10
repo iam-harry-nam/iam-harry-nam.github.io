@@ -6,8 +6,9 @@ tag: ["apache.avro",
         "Java", "library"]
 ---
 
-1)  Import ‘org.apache.avro:avro:1.9.0’ (choose proper version)
-2)  follow like this
+1.  Import ‘org.apache.avro:avro:1.9.0’ (choose proper version)
+
+2.  follow like this
 
 ```java
 
