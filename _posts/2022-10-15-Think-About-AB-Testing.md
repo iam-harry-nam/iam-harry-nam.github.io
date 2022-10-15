@@ -1,12 +1,13 @@
 ---
 title: "AB Testing"
-date: 2022-10-15 15:47:00
+date: 2022-10-13 15:47:00
 category: ["Tach Talk"]
 tag: ["AB Testing", "A/B Testing"]
 ---
 
 A/B Test is an essential experimental element for platform companies and is an essential proof work for rapid growth.
-You can learn more about A/B Test by looking at https://en.wikipedia.org/wiki/A/B_testing
+You can learn more about A/B Test by looking at : [A/B testing - Wikipedia](https://en.wikipedia.org/wiki/A/B_testing)
+
 
 I was shocked to hear from a person from a famous IT company in Korea that there was no A/B test and that it was just deploy when developing a feature.
 Users may feel uncomfortable, but it's just deploy. I believe that developers and product owners who create new businesses all work hard to create features.
